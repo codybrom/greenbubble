@@ -1,0 +1,7 @@
+# Vercel
+.vercel
+.env
+
+# VS Code
+*.code-workspace
+api/.env.local

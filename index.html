@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenbubble - SMS Integration with Airtable and Twilio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        html {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .jumbotron {
+            color: #ffffff;
+            background: #53d769;
+            align-self: flex-end;
+            border-radius: 20px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+            padding: 30px 40px;
+            position: relative;
+        }
+
+        .jumbotron:before {
+            background-color: #53d769;
+            content: "";
+            position: absolute;
+            z-index: 0;
+            bottom: 0;
+            right: -8px;
+            height: 20px;
+            width: 20px;
+            border-bottom-left-radius: 15px;
+        }
+
+        .jumbotron:after {
+            background-color: #ffffff;
+            border-bottom-left-radius: 10px;
+            content: "";
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            right: -10px;
+            width: 10px;
+            height: 20px;
+        }
+
+        .jumbotron h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .jumbotron p {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Greenbubble</h1>
+            <p class="lead">A simple SMS integration project using Airtable, Twilio, and PHP.</p>
+        </div>
+        <p>Greenbubble allows you to receive and respond to incoming SMS messages through Twilio by using custom
+            trigger keywords stored in an Airtable base.</p>
+        <p>Simply send an SMS with a pre-programmed trigger keyword and the system will automatically reply with the
+            corresponding message from your Airtable base.</p>
+        <h2>Getting Started</h2>
+        <ol>
+            <li>Clone the Greenbubble repository to your local environment.</li>
+            <li>Set up your Airtable base with trigger keywords and response messages.</li>
+            <li>Deploy Greenbubble to your preferred hosting provider or serverless platform.</li>
+            <li>Update your Twilio and Slacks webhooks to work with your deployed Greenbubble instance.</li>
+        </ol>
+
+        <h2>Features</h2>
+        <ul>
+            <li>Easy integration with Twilio and Airtable.</li>
+            <li>Automatic response to incoming SMS messages based on trigger keywords.</li>
+            <li>Dynamic content management through Airtable.</li>
+            <li>Support for deployment on various hosting providers and serverless platforms.</li>
+        </ul>
+
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="https://www.twilio.com/docs/quickstart/php/sms" target="_blank">Twilio SMS API
+                    Documentation</a></li>
+            <li><a href="https://airtable.com/api" target="_blank">Airtable API Documentation</a></li>
+            <li><a href="https://github.com/vercel-community/php" target="_blank">Vercel PHP Runtime</a></li>
+        </ul>
+        <p>Developed by <a href="https://www.codybrom.com" target="_blank">Cody Bromley</a>. Mastodon: <a href="https://mstdn.social/@codybrom" target="_blank">@codybrom@mstdn.social</a>.</p>
+
+    </div>
+</body>
+
+</html>
