@@ -1,3 +1,5 @@
+![A green speech bubble with the word "Greenbubble"](docs/greenbubble-image.jpg?raw=true "Greenbubble")
+
 Greenbubble
 ===========
 
