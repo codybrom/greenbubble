@@ -25,7 +25,7 @@ Installation and Setup
 ----------------------
 
 1.  Clone the repository to your server:
-`git clone https://github.com/codybrom/greenbubble/greenbubble.git`
+`git clone https://github.com/codybrom/greenbubble.git`
 
 2.  Set up a Twilio account and create a new phone number capable of receiving SMS. Configure a TWIML app pointed at the URL where your Greenbubble endpoint is located (e.g., `https://greenbubble.example.com/api/`) and set your Phone Number to use the TWIML app.
 
